@@ -1,0 +1,68 @@
+.childContainer {
+  font-weight: var(--weight-light);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  min-height: 90vh;
+}
+
+.main {
+  padding-right: calc(var(--bs-gutter-x));
+}
+
+.side {
+  padding-left: unset;
+}
+
+.side .sideContent {
+  padding-left: calc(var(--bs-gutter-x));
+  border-left: 1px solid var(--color-muted);
+}
+
+.brand {
+  color: var(--color-text) !important;
+}
+
+.brand h4 {
+  line-height: 1.5em;
+}
+
+.brand:hover {
+  text-decoration: unset;
+}
+
+.socials {
+  margin-top: 24px !important;
+}
+
+.themeSwitch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 5;
+  border-radius: 50% !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .childContainer {
+    padding-right: var(--bs-gutter-x, 4rem);
+    padding-left: var(--bs-gutter-x, 4rem);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-bottom: 2rem;
+  }
+
+  .side {
+    border-top: 1px solid var(--color-muted);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-top: 2rem;
+  }
+
+  .side .sideContent {
+    padding-left: unset;
+    border-left: none;
+  }
+}

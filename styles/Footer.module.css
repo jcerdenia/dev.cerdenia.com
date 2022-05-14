@@ -1,0 +1,27 @@
+.container {
+  background: var(--color-bg-secondary);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.link {
+  font-weight: var(--weight-normal) !important;
+  margin-right: 12px;
+}
+
+.link:hover {
+  color: var(--color-accent-muted) !important;
+  text-decoration: none;
+}
+
+.footer a:link,
+.footer a:active,
+.footer a:visited {
+  color: inherit !important;
+}
+
+.footer a:hover {
+  color: var(--color-text) !important;
+}
