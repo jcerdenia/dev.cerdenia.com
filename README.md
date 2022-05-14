@@ -1,6 +1,6 @@
 # dev.cerdenia.com
 
-Dev home page containing projects, links, and an About page.
+Dev home page containing projects, links, and an About page. Served at [dev.cerdenia.com](https://dev.cerdenia.com).
 
 ## Technical
 
