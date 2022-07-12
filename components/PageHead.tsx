@@ -32,7 +32,7 @@ const PageHead = ({
         name="twitter:image"
         content="https://cerdenia.com/images/jc-bg.jpeg"
       />
-      <link rel="icon" href="/images/profile.jpeg" />
+      <link rel="icon" href="/images/jc-bg.jpeg" />
       <title>
         {title}
         {!absoluteTitle ? " • Joshua Cerdenia" : null}
